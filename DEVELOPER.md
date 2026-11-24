@@ -1,4 +1,4 @@
-# seyovela-commons — Developer Guide
+# seyovela-common — Developer Guide
 
 ## Purpose
 
@@ -9,12 +9,12 @@ One place for identifiers and status enums shared across AuthEngine, OrgEngine, 
 ```xml
 <dependency>
   <groupId>org.seyovela</groupId>
-  <artifactId>seyovela-commons</artifactId>
+  <artifactId>seyovela-common</artifactId>
   <version>1.0.0-SNAPSHOT</version>
 </dependency>
 ```
 
-Java package remains `org.seyovela.ids` (historical). The Maven artifact is `seyovela-commons` (renamed from `seyovela-ids`).
+Java package remains `org.seyovela.ids` (historical). The Maven artifact is `seyovela-common` (formerly `seyovela-commons`, originally `seyovela-ids`).
 
 ## IDs
 

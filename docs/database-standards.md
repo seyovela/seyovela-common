@@ -13,11 +13,11 @@ Applies to AuthEngine, OrgEngine, AIChatBot, and future products.
 ## IDs
 
 - Primary keys are `CHAR(36)` UUIDv7 strings.
-- Runtime records: `org.seyovela.ids.SeyovelaIds.next()` from artifact `org.seyovela:seyovela-commons`.
+- Runtime records: `org.seyovela.ids.SeyovelaIds.next()` from artifact `org.seyovela:seyovela-common`.
 
 ## Integer-backed enums
 
-Use shared enums from `seyovela-commons` (`AccountStatus`, `MembershipStatus`, `OrgRole`, `RecordStatus`, etc.).
+Use shared enums from `seyovela-common` (`AccountStatus`, `MembershipStatus`, `OrgRole`, `RecordStatus`, etc.).
 
 ## Product codes (OrgEngine seeds)
 

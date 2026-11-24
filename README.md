@@ -1,4 +1,4 @@
-# seyovela-commons
+# seyovela-common
 
 Shared Java library for Seyovela platform services.
 
@@ -7,20 +7,20 @@ Shared Java library for Seyovela platform services.
 | UUIDv7 generator | `org.seyovela.ids.SeyovelaIds` |
 | Integer-backed enums | `org.seyovela.ids` (`AccountStatus`, `MembershipStatus`, `OrgRole`, `RecordStatus`, …) |
 
-**Maven:** `org.seyovela:seyovela-commons:1.0.0-SNAPSHOT`
+**Maven:** `org.seyovela:seyovela-common:1.0.0-SNAPSHOT`
 
 Consumers: AuthEngine, OrgEngine, AIChatBot (and future products).
 
 ## Build & install
 
 ```bash
-cd seyovela-commons
+cd seyovela-common
 mvn clean install
 ```
 
 ## Docs
 
-- [Platform overview](../seyovela/README.md) — Auth / Org / products structure
+- [Platform overview](../README.md) — Auth / Org / products structure
 - [DEVELOPER.md](./DEVELOPER.md) — usage and conventions
 - [AGENTS.md](./AGENTS.md) — agent rules
 - [docs/database-standards.md](./docs/database-standards.md) — cross-product DB standards

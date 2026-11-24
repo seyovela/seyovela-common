@@ -1,4 +1,4 @@
-# AGENTS.md — seyovela-commons
+# AGENTS.md — seyovela-common
 
 Guidance for AI agents working in this repository.
 
@@ -8,7 +8,7 @@ Tiny shared JAR: UUIDv7 + integer-backed enums. No Spring Boot app, no HTTP, no 
 
 ## Hard rules
 
-- Artifact id: `seyovela-commons` (not `seyovela-ids`)
+- Artifact id: `seyovela-common` (not the old `seyovela-commons` or `seyovela-ids`)
 - Keep Java packages under `org.seyovela.ids` unless a coordinated multi-repo rename is requested
 - Do not add product-specific domain (orgs, chat, sessions) here
 - Do not bump to a breaking enum ordinal change without updating all Flyway seeds/consumers
